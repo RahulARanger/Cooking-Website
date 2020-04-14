@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+
+.main-container {
+    padding: 100px;
+    margin: 220px;
+    text-align: center;
+}
+ 
+.btn-row {
+  
+  
+    
+    display:flex;
+   
+
+	list-style-type: none;
+    margin-top: -850px;/*height from top*/
+   margin-left: 190-20+5+5px;
+  
+   
+  
+}
+
+.ct-btn {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    margin:50px; /*dist between them */
+}
+ 
+/* Common CSS for all Buttons */
+button {
+    font-size: 15px;
+    width: 50px;
+
+    height: 50px;
+    border-radius: 6px;
+    cursor:pointer;
+    font-family: calibri;
+}
+ 
+
+
+/* Simple Border Button */
+.border-neon {
+    background-color: transparent;
+    border: 2px solid pink;
+    color: pink;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+ 
+.border-neon:hover, .border-neon:focus {
+    -webkit-box-shadow: inset 0px 0px 8px 3px #ff94b8;
+    box-shadow: 0px 0px 10px 3px #ff94b8, inset 0px 0px 10px 3px #ff94b8;
+    border-color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff94b8, 0 0 40px #ff94b8, 0 0 50px #ff94b8, 0 0 60px #ff94b8, 0 0 70px #ff94b8
+}
+ 
+/* Inner Height Button */
+.inner-height-neon {
+    background-color: transparent;
+    border: 2px solid #00ccb9;
+    color: #00ccb9;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+ 
+    .inner-height-neon .bg-height {
+        background-color: #6bfff1;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        bottom: 0;
+        height: 0%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transition: height .3s, top .3s;
+        transition: height .3s, top .3s;
+    }
+ 
+    .inner-height-neon .btn-text {
+        z-index: 1;
+    }
+ 
+.inner-height-neon:hover {
+    -webkit-box-shadow: 0px 0px 30px 20px #45ffee;
+            box-shadow: 0px 0px 30px 20px #45ffee;
+    border-color:#6bfff1;
+}
+ 
+.inner-height-neon:hover .bg-height {
+    height:100%;
+    top:0%;
+    z-index: -1;
+}
+ 
+.inner-height-neon:hover .btn-text {
+    color:#1aa99b
+}
+ 
+/* Inner Width Buttton */
+.inner-width-neon {
+    background-color: transparent;
+    border: 2px solid #ffed5a;
+    color: #ffed5a;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+ 
+    .inner-width-neon .bg-width {
+        background-color: #fff6a8;
+        position: absolute;
+        left: 50%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 0%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transition: width .3s, left .3s;
+        transition: width .3s, left .3s;
+    }
+ 
+    .inner-width-neon .btn-text {
+        z-index: 1;
+    }
+ 
+.inner-width-neon:hover {
+    -webkit-box-shadow: 0px 0px 30px 20px #fff5a2;
+            box-shadow: 0px 0px 30px 20px #fff5a2;
+    border-color:#fff6a8;
+}
+ 
+.inner-width-neon:hover .bg-width {
+    width:100%;
+    left:0%;
+    z-index: -1;
+}
+ 
+.inner-width-neon:hover .btn-text {
+    color:#a79500
+}
+ 

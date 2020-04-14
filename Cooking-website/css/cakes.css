@@ -1,0 +1,283 @@
+*{
+	margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+body{
+
+    overflow:hidden;
+    background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-position:center;
+}
+
+ul
+{
+	float:right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li
+{
+	display: inline-block;
+}
+ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border:1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+
+}
+
+ul li.active a
+{
+	background-color: #fff;
+	color: #000;
+}
+
+
+
+div.gallery {
+    
+    border: 1px solid rgb(244, 248, 4);
+    float: left;
+    width: 180px;
+    height: 270px;
+    
+    
+}
+div.galleryempty
+{
+  
+    
+    float:left;
+    width: 180px;
+    height: 250px;
+
+}
+
+div.gallery:hover {
+    border: 3px solid rgb(10, 243, 127);
+    
+}
+
+div.gallery img {
+    width: 100%;
+    height: 60%;
+}
+
+div.desc {
+    padding:15px 15px;
+    text-align: left;
+    color:rgb(235, 233, 236);
+    
+}
+
+.foodgallery 
+{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+.sign {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+	background-image: radial-gradient(
+	  ellipse 50% 35% at 50% 50%,
+	 transparent
+	);
+	transform: translate(-50%, -50%);
+	letter-spacing: 2;
+	left: 34.5%;
+	top: 30%;
+	font-family: "Clip";
+	text-transform: uppercase;
+	font-size: 6em;
+	color: #0000FF;
+	text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #f85e05,
+	  -0.2rem 0.1rem 1rem blue, 0.2rem 0.1rem 1rem #e60914,
+	  0 -0.5rem 2rem #2445ff, 0 0.5rem 3rem blue;
+	animation: shine 2s forwards, flicker 3s infinite;
+  }
+  
+  @keyframes blink {
+	0%,
+	22%,
+	36%,
+	75% {
+	  color: #0000FF;
+	  text-shadow: 0 0 0.6rem solid #0000FF, 0 0 1.5rem #e78b01,
+		-0.2rem 0.1rem 1rem solid blue, 0.2rem 0.1rem 1rem #0000FF,
+		0 -0.5rem 2rem #0000FF, 0 0.5rem 3rem #0000FF;
+	}
+	28%,
+	33% {
+	  color: #0000FF;
+	  text-shadow: none;
+	}
+	82%,
+	97% {
+	  color: #0000FF;
+	  text-shadow: none;
+	}
+  }
+  
+  .flicker {
+	animation: shine 2s forwards, blink 3s 2s infinite;
+  }
+  
+  .fast-flicker {
+	animation: shine 2s forwards, blink 10s 1s infinite;
+  }
+  
+  @keyframes shine {
+	0% {
+	  text-shadow: none;
+	}
+	100% {
+	  color: #ffe6ff;
+	  text-shadow: 0 0 0.6rem #e7900c, 0 0 1.5rem #0000FF,
+		-0.2rem 0.1rem 1rem #f71707, 0.2rem 0.1rem 1rem #0000FF,
+		0 -0.5rem 2rem #df0b04, 0 0.5rem 3rem #0000FF;
+	}
+  }
+  
+  @keyframes flicker {
+	from {
+	  opacity: 1;
+	}
+  
+	4% {
+	  opacity: 0.9;
+	}
+  
+	6% {
+	  opacity: 0.85;
+	}
+  
+	8% {
+	  opacity: 0.95;
+	}
+  
+	10% {
+	  opacity: 0.9;
+	}
+  
+	11% {
+	  opacity: 0.922;
+	}
+  
+	12% {
+	  opacity: 0.9;
+	}
+  
+	14% {
+	  opacity: 0.95;
+	}
+  
+	16% {
+	  opacity: 0.98;
+	}
+  
+	17% {
+	  opacity: 0.9;
+	}
+  
+	19% {
+	  opacity: 0.93;
+	}
+  
+	20% {
+	  opacity: 0.99;
+	}
+  
+	24% {
+	  opacity: 1;
+	}
+  
+	26% {
+	  opacity: 0.94;
+	}
+  
+	28% {
+	  opacity: 0.98;
+	}
+  
+	37% {
+	  opacity: 0.93;
+	}
+  
+	38% {
+	  opacity: 0.5;
+	}
+  
+	39% {
+	  opacity: 0.96;
+	}
+  
+	42% {
+	  opacity: 1;
+	}
+  
+	44% {
+	  opacity: 0.97;
+	}
+  
+	46% {
+	  opacity: 0.94;
+	}
+  
+	56% {
+	  opacity: 0.9;
+	}
+  
+	58% {
+	  opacity: 0.9;
+	}
+  
+	60% {
+	  opacity: 0.99;
+	}
+  
+	68% {
+	  opacity: 1;
+	}
+  
+	70% {
+	  opacity: 0.9;
+	}
+  
+	72% {
+	  opacity: 0.95;
+	}
+  
+	93% {
+	  opacity: 0.93;
+	}
+  
+	95% {
+	  opacity: 0.95;
+	}
+  
+	97% {
+	  opacity: 0.93;
+	}
+  
+	to {
+	  opacity: 1;
+	}
+  }
