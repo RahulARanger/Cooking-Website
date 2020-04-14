@@ -1,5 +1,5 @@
      WELCOME TO THIS COOKING WEBSITE PROJECT
-                         ---------------------------------------
+     ---------------------------------------
 Generally this is not a solo project but a trio project.So a lot of features has been added into it...
 
 Why Use this Repo ?
