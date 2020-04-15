@@ -1,8 +1,10 @@
-     WELCOME TO THIS COOKING WEBSITE PROJECT
-     ---------------------------------------
-Generally this is not a solo project but a trio project.So a lot of features has been added into it...
+                                                    WELCOME TO THIS COOKING WEBSITE PROJECT
+                                                    ---------------------------------------
+                                                    
+Generally this is not a solo project but a trio project.So a lot of features has been added into the website...
 
 Why Use this Repo ?
+-------------------
 
 
 + This Repo generally helps user understand the food culture in India, and in Italy and also introduces them to some cool desserts and inspires them to cook by themselves.
@@ -12,22 +14,24 @@ Why Use this Repo ?
 + And for some Students like us can inherit some code that is so useful.
 
 What are all the features of these Website ?
-Live Backgrounds for the Website pages.
+--------------------------------------------
 
-Some Underline and boxing the Text Animations.
+ * Live Backgrounds for the Website pages.
 
-Introductions to pop-up Windows and pop-up Webpage.
+ * Some Underline and boxing the Text Animations.
 
-Neon Text
+ * Introductions to pop-up Windows and pop-up Webpage.
+ 
+ * Neon Text
 
-Bugless flow of the webdocuments
+ * Bugless flow of the webdocuments
 
-Directing the webpage directly to gmail without copying the gmail id
+ * Directing the webpage directly to gmail without copying the gmail id
 
-Static Webpage so no copyrights exists (lol).
+ * Static Webpage so no copyrights exists (lol).
 
 Important Note:
-
+---------------
 
 Since we know that github never allows to push the file more than 25mb into the git and as i have said i have used live backgrounds.
 I done a lot of research and found out that for live backgrounds it is recommded to download the videos and implementing them instead
