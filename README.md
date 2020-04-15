@@ -53,5 +53,9 @@ As in the webpage u can use contact us panel to mail Us...
 
 or comment in this platform to share your ideas to make this project even more useful for Others..
 
+Note
+----
+It ain't much work but it's a honest work.
+
 
                                               Thank You for Reading 
