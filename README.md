@@ -7,7 +7,7 @@ Why Use this Repo ?
 -------------------
 
 
-+ This Repo generally helps user understand the food culture in India, and in Italy and also introduces them to some cool desserts and inspires them to cook by themselves.
++ This Repo generally helps user understand the food culture in India, and in Italy and also introduces them to some cool desserts and inspires them to cook by learning themselves.
 
 + So Generally Cook by ourselves is our motto So we promote through this website.
 
