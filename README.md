@@ -39,7 +39,7 @@ of using the iframe/embed tag to get from Youtube.
 
 So i have compressed/reduced the quality of the videoes Used in the program so as to publish in this flatform...
 
-But if do require this Project with high quality video :
+But if you do require this Project with high quality video :
 
 Download the whole Files from : https://drive.google.com/open?id=1GPT-fzDrCg8FVcDCITTihOboaj-b-4el
 
